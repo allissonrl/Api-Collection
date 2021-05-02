@@ -13,7 +13,6 @@ println("------------------------------------")
     funcionarios
         .groupBy { it.tipocontratacao}
         .forEach{ println(it)}
-
     println("------------------------------------")
 
 }
